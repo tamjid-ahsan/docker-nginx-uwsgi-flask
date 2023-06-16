@@ -12,6 +12,18 @@ docker-compose up --build # rebuild
 docker-compose images # all images built
 docker-compose ps # show running processes
 
+# Stop services only
+docker-compose stop
+
+# Stop and remove containers, networks..
+docker-compose down 
+
+# Down and remove volumes
+docker-compose down --volumes 
+
+# Down and remove images
+docker-compose down --rmi <all|local> 
+
 sudo ss -tulpn | grep LISTEN # list all used ports and process associated
 sudo killall apache2 # kill a process if it using a port
 ```
