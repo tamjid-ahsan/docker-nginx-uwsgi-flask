@@ -29,6 +29,7 @@ ___
 - create a new image from multiple dockerfile and docker-compose to a single image {check if is it is possible?}
 - deep dive into docker and docker-compose
 - secure connection: SSL, 443 in nginx
+- add architechture diagram
 
 ___
 **test this server** ausing this curl command after using docker for deployment.
